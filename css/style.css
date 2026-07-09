@@ -1,0 +1,74 @@
+.navbar {
+    background-color: #651329;
+}
+
+.dropdown-menu {
+    max-width: 90vw;
+}
+
+.dropdown-item {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.carousel-item {
+    max-height: 720px;
+}
+
+.calendariomaya {
+    width: 60px;
+    height: auto;
+}
+
+.TLALAMAC {
+    color: #651329;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title_text {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000;
+}
+
+.title_text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60%;
+    height: 4px;
+    background-color: #651329;
+    border-radius: 50px;
+}
+
+.caja_img {
+    max-width: 540px;
+}
+
+.footer {
+    background-color: #651329;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.text_red {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sanandrestlalamac {
+    color: #fff;
+}
