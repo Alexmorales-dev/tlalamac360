@@ -8,42 +8,9 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Paroquia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Feria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Delegación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Por Visitar</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Tramites en linea
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">CURP</a></li>
-                        <li><a class="dropdown-item" href="#">Acta de Nacimiento</a></li>
-                        <li><a class="dropdown-item" href="#">Consulta tú número de seguro</a></li>
-                        <li><a class="dropdown-item" href="#">Asignación o localización NSS</a></li>
-                        <li><a class="dropdown-item" href="#">Vijencia de numero de seguro</a></li>
-                        <li><a class="dropdown-item" href="#">Consulta tú RFC</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+    <?php
+    include 'templates/nav.html';
+?>
 <!-- CARRUSEL -->
 <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
   <div class="carousel-inner">
@@ -105,6 +72,7 @@
             </div>
         </div>
     </div>
+    <!--FOOTER-->
     <div class="footer">
         <ul class="cotainer_redes mx-5">
             <li class="red_social"><a class="text_red" href="">Facebook</a></li>
