@@ -16,13 +16,13 @@
 <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="../images/Parroquia/parroqui1.png" class="d-block w-100" alt="...">
+            <img src="../images/Parroquia/banner/parroquia1.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="../images/Parroquia/parroqui2.png" class="d-block w-100" alt="...">
+            <img src="../images/Parroquia/banner/parroquia2.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="../images/Parroquia/parroquia3.png" class="d-block w-100" alt="...">
+            <img src="../images/Parroquia/banner/parroquia3.png" class="d-block w-100" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
@@ -35,7 +35,7 @@
     </button>
 </div>
 <!--Logo-->
-<img src="../images/calendario maya.png" alt="..." class="calendariomaya d-block mx-auto mt-5">
+<img src="../images/Diseño/calendario_maya.png" alt="..." class="calendariomaya d-block mx-auto mt-5">
     <h1 class="TLALAMAC">TLALAMAC</h1>
 <!--contenido-->
     <div class="container-fluid">
@@ -45,7 +45,7 @@
                 <h2 class="sub_text"> Lorem ipsum dolor sit amet consectetur </h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nostrum unde eaque reprehenderit distinctio mollitia quas sint temporibus dolorum illum soluta incidunt, sapiente nam, est enim dolorem explicabo repellendus rem.</p>
                 <div class="caja_img">
-                    <img class="caja_img" src="images/Parroquia/FB_IMG_1783363353435.jpg" alt="...">
+                    <img class="caja_img" src="../images/Parroquia/FB_IMG_1783363353435.jpg" alt="...">
                 </div>
             </div>
             <div class="col-6 p-4">
