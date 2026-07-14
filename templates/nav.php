@@ -1,21 +1,21 @@
- <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-white" aria-current="page" href="<?= BASE_URL ?>">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Paroquia</a>
+                    <a class="nav-link text-white" href="<?= BASE_URL ?>menu/parroquia.php">Paroquia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Feria</a>
+                    <a class="nav-link text-white" href="<?= BASE_URL ?>menu/feria.php">Feria</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Delegación</a>
+                    <a class="nav-link text-white" href="<?= BASE_URL ?>menu/delegacion.php">Delegación</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Por Visitar</a>
+                    <a class="nav-link text-white" href="<?= BASE_URL ?>menu/visitar.php">Por Visitar</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

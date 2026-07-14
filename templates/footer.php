@@ -16,6 +16,6 @@
                     referrerpolicy="strict-origin-when-cross-origin">
                 </iframe>
         </div>
-        <img class="mx-5" src="images/vino.png" alt="..." width="200px">
+        <img class="mx-5" src="<?= BASE_URL ?>images/vino.png" alt="..." width="200px">
         
-    </div>
+</div>
