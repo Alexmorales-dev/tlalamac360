@@ -7,7 +7,7 @@ date_default_timezone_set('America/Mexico_City');
 if ($_SERVER['HTTP_HOST'] == 'localhost') {
     define('BASE_URL', '/Hola Mundo/Tlalamac360/');
 } else {
-    define('BASE_URL', '/');
+    define('BASE_URL', '/Alexmorales-dev/tlalamac360');
 }
 
 // Nombre del sitio
